@@ -2,9 +2,17 @@
 
 ## 2.4 GHz only (single radio - single band)
 
+### Atheros
+
 | Driver |  ID | Chipset | Radio | Vendor |  Modelname | HW Rev | API | Monitor Mode | Packet-Injection | SoftAP | Confirmed |
 | ------ | --- | ------- | ------ | ---------- | -------| ------  | ----- | ----- | ---- | ----- | ---- |
 | ath9k_htc | 0cf3:9271 | AR9271 | 1T1R | TP-Link | TL-WN722N | | nl80211 | 2.4GHz | 2.4 GHz| Not working |5.7.0-kali3-amd64 VirtualBox6.1 |
+
+### Realtek
+| Driver |  ID | Chipset | Radio | Vendor |  Modelname | HW Rev | API | Monitor Mode | Packet-Injection | SoftAP | Confirmed |
+| ------ | --- | ------- | ------ | ---------- | -------| ------  | ----- | ----- | ---- | ----- | ---- |
+| rtl8192cu | 7392:7811  | RTL8188CUS | 1T1R | Edimax | EW-7811Un |  | nl80211 | 2.4GHz | 2.4GHz | Not working |5.7.0-kali3-amd64 VirtualBox6.1 |
+
 ## 2.4 + 5 GHz (single radio - dual band)
 
 ### Mediatek/Ralink
